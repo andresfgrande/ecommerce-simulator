@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;  /* Space between cards */
+    padding: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;  /* Light grey background */
+    border: 2px solid #ccc;  /* Border */
+    border-radius: 10px;  /* Rounded corners */
+    padding: 20px;
+    width: 300px;  /* Fixed width, but could be made responsive with more complex CSS */
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #008CBA;  /* Button color */
+    border: none;
+    color: white;  /* Text color */
+    padding: 10px 20px;  /* Padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;  /* Rounded corners */
+    transition: background-color 0.3s;  /* Transition effect */
+}
+
+button:hover {
+    background-color: #005f5f;  /* Darker color on hover */
+}
+
+.loyalty-id {
+    font-weight: bold;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.copy-loyalty{
+    max-width: 20px;
+    margin-left: 0.40em;
+    cursor: pointer;
+}
