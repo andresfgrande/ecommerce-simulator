@@ -33,8 +33,8 @@ export default function GenerateLoyalty() {
         <div className="card-container">
             
             <div className="card">
-                <div className="card-title">Norma Comics</div>
-                <button onClick={() => generateLoyaltyId(setLoyaltyId1, "NORM")}>Generate Loyalty ID</button>
+                <div className="card-title">Roob and Sons</div>
+                <button onClick={() => generateLoyaltyId(setLoyaltyId1, "ROOB")}>Generate Loyalty ID</button>
                 {loyaltyId1 && 
                 <div className="loyalty-id">
                     <span>{loyaltyId1.toUpperCase()}</span>
