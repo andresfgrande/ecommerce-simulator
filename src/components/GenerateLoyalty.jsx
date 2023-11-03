@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function GenerateLoyalty() {
     const [loyaltyId1, setLoyaltyId1] = useState("");
     const [loyaltyId2, setLoyaltyId2] = useState("");
-    const [copied1, setCopied1] = useState(false);  // Copied state for the first card
+    const [copied1, setCopied1] = useState(false);  
     const [copied2, setCopied2] = useState(false);  
 
     const generateLoyaltyId = (setLoyaltyId, prefix) => {
