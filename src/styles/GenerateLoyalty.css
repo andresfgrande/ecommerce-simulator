@@ -2,16 +2,16 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;  /* Space between cards */
+    gap: 20px;  
     padding: 20px;
 }
 
 .card {
-    background-color: #f0f0f0;  /* Light grey background */
-    border: 2px solid #ccc;  /* Border */
-    border-radius: 10px;  /* Rounded corners */
+    background-color: #f0f0f0;  
+    border: 2px solid #ccc; 
+    border-radius: 10px;  
     padding: 20px;
-    width: 300px;  /* Fixed width, but could be made responsive with more complex CSS */
+    width: 300px;  
     text-align: center;
 }
 
@@ -21,22 +21,22 @@
 }
 
 button {
-    background-color: #008CBA;  /* Button color */
+    background-color: #008CBA;  
     border: none;
-    color: white;  /* Text color */
-    padding: 10px 20px;  /* Padding */
+    color: white; 
+    padding: 10px 20px;  
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 12px;  /* Rounded corners */
-    transition: background-color 0.3s;  /* Transition effect */
+    border-radius: 12px;  
+    transition: background-color 0.3s;  
 }
 
 button:hover {
-    background-color: #005f5f;  /* Darker color on hover */
+    background-color: #005f5f;  
 }
 
 .loyalty-id {

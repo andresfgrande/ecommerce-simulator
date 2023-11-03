@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import GenerateLoyalty from './components/GenerateLoyalty';
-import "./styles/Generate.css"
+import "./styles/GenerateLoyalty.css"
+import GeneratePurchase from './components/GeneratePurchase';
+import "./styles/GeneratePurchase.css"
 
 function App() {
   
@@ -11,6 +13,7 @@ function App() {
     <>
       <h1>Ecommerce simulator</h1>
       <GenerateLoyalty></GenerateLoyalty>
+      <GeneratePurchase></GeneratePurchase>
     </>
   )
 }
